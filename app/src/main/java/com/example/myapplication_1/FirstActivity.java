@@ -45,6 +45,7 @@ public class FirstActivity extends AppCompatActivity {
                 Toast.makeText(FirstActivity.this,"the next page",Toast.LENGTH_LONG).show();
 //                Intent intent=new Intent(FirstActivity.this,SecondActivity.class);
                 Intent intent =new Intent("com.example.activity.ACTION_START");
+                intent.addCategory("com.example.activity.MY_CATEGORY");
                 startActivity(intent);
             }
         });

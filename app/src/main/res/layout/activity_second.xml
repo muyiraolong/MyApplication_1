@@ -14,4 +14,12 @@
         android:text="Button2"
         app:layout_constraintTop_toTopOf="parent"
         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/baidu"
+        android:text="Baidu"
+        app:layout_constraintTop_toBottomOf="@id/button2"
+        />
   </androidx.constraintlayout.widget.ConstraintLayout>
